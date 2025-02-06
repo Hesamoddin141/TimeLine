@@ -11,18 +11,12 @@ Emotion analysis to detect moods in photos.
 Photo enhancement for old or low-quality images.
 Privacy controls to anonymize sensitive metadata.
 Installation
-Prerequisites
-Python 3.x
-External storage device (with photos)
-Libraries: Pillow, OpenCV, face_recognition, ExifTool, etc.
-Steps to Install
-Clone the Repository:
 
-git clone https://github.com/yourusername/timeline-app.git
-cd timeline-app
+
 Install Dependencies:
 
 pip install -r requirements.txt
+
 Set Up External Storage:
 Connect your external memory (e.g., USB drive, SD card).
 Update the config.json file with the path to your external storage:
@@ -56,20 +50,34 @@ You can customize the behavior of the application by editing the config.json fil
 Folder Structure
 
 timeline-app/
-├── main.py                # Main entry point for the application
+
+├── main.py   # Main entry point for the application
+
 ├── config.json            # Configuration file
+
 ├── requirements.txt       # List of dependencies
+
 ├── utils/                 # Utility functions (e.g., metadata extraction, face detection)
+
 ├── data/                  # Temporary storage for collected photos and metadata
+
 └── output/                # Final processed timeline and results
+
+
 Contributing
 We welcome contributions! If you’d like to improve the application, please follow these steps:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature/your-feature).
+
 Commit your changes (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature/your-feature).
+
 Open a pull request.
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
